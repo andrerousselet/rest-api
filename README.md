@@ -2,7 +2,7 @@
 
 - [x] O usuário pode criar uma nova transação.
 - [x] O usuário pode listar as transações que já ocorreram.
-- [ ] O usuário pode obter um "resumo" de sua conta.
+- [x] O usuário pode obter um "resumo" de sua conta.
 - [x] O usuário pode visualizar uma transação única.
 
 # Regras de negócio
