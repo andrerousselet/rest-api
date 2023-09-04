@@ -5,15 +5,18 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "knex": "node --no-warnings --loader tsx ./node_modules/.bin/knex"
+    "knex": "node --no-warnings --loader tsx ./node_modules/.bin/knex",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.5.7",
+    "supertest": "^6.3.3",
     "tsx": "^3.12.7",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.3"
   },
   "dependencies": {
     "@fastify/cookie": "^9.0.4",
